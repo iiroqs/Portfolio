@@ -1,6 +1,14 @@
-h1{
-    text-align: center;
-}
 body{
-    background-image: url();
+    background-color: black;
+    color: white;
+}
+.welcome{
+    text-align: center;
+
+}
+.login{
+    display: block;
+}
+.login2{
+    display: block;
 }

@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-       <title>Bibo Restaurant</title> 
-       <link href="style.css" rel="stylesheet"/>
-    </head>
-    <body>
-        <main>
-        <section>
-            <h1 id="Welcome">Welcome to Bibo Restaurant</h1>
-            <p>Welcome to our restaurant,below is our menu:</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1 class="welcome">Welcome to Bibo</h1>
+        </div>
+        <p class="welcome">Bibo is a restaurant which offer various meals.</p>
+    </section>
+    <section>
+        <div>
             <fieldset>
-                <input id="chicken" type="checkbox" name="food" value="chicken"> <label for="chicken">Chicken</label>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKjF6R_1qWznz2kCSMdD6kaGjYjSpKE2eR0Q&usqp=CAU" alt="seasoned chicken">
-                <input id="bbq steak" type="checkbox" name="food" value="bbq steak"> <label for="bbq steak">Bbq Steak</label>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK87TfWTUnbqH4G_GMeE28Q4O2wMFE5lybew&usqp=CAU" alt="bbq steak">
-                </fieldset>
-        </section>
-        </main>
-    </body>
+                <legend>Please Login:</legend>
+                <label class="login">Email: </label><input type="text" placeholder="Email">
+                <label class="login">Password: </label><input type="password" placeholder="Password"> 
+            </fieldset>
+        </div>
+        
+    </section>
+</body>
 </html>
